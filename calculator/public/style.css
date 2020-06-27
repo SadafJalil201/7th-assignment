@@ -1,0 +1,39 @@
+body{
+    background: repeating-linear-gradient(#7ba78c, #00ffcc, #7ba78c);
+}
+*{box-sizing: border-box}
+.container{width: 400px; 
+           overflow: hidden; 
+           margin: 50px auto;
+           background: linear-gradient(to right, #00aaff, #00ff6c, #00aaff);
+         }
+
+.container .show-calc{border: 2px solid #95A5A6; 
+                      height:50px;
+                      width:100%;
+                      font-size:25px;
+                      line-height: 50px;
+                      border-radius: 5px;
+                      padding: 0 10px;
+                    }
+.container .box{width: 25%; 
+                height: 50px;
+                float: left;
+                border: 1px solid #FFF; 
+                font-size:25px;
+                line-height: 50px; 
+                text-align: center;
+                font-family: sans-serif;
+                transition: all .25s ease-in-out;
+                background-color: lightseagreen;
+                color: #fff; 
+                cursor: pointer;
+              }
+.container .box:hover{background: seagreen}
+
+/* .container .box-opr{background: #F89406} */
+
+.container .box-reset,.container .box-clear{width: 50%}
+
+/* .container .box-reset{background: #446CB3}
+.container .box-clear{background: #F22613}  */
